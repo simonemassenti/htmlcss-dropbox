@@ -52,3 +52,35 @@ nav div {
     width: 70%;
     background-color: blueviolet;
 }
+
+.container {
+    width: 70%;
+    margin: 1rem auto;
+    /* debug */
+    border: 2px solid green;
+    min-height: 150px;
+    padding: 2rem 4rem;
+}
+
+.plan {
+    border: 1px solid blue;
+    padding: 1rem;
+}
+
+.plan-vertical {
+    display: flex;
+    gap: 1rem;
+}
+
+.plan-col {
+    /* debug */
+    border: 1px solid red;
+    min-height: 500px;
+}
+
+.horizontal-col {
+    /* debug */
+    margin-top: 1rem;
+    border: 2px solid red;
+
+}
