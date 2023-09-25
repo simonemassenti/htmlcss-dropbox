@@ -102,3 +102,22 @@ nav div {
     width: 35%;
     border: 1px solid maroon;
 }
+
+.operations {
+    margin-top: 1rem;
+    border: 2px solid goldenrod;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 1rem;
+    width: calc(95% / 3);
+    background-color: lightpink;
+    border: 1px solid black;
+
+}
