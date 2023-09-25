@@ -173,3 +173,33 @@ nav div {
     border: 1px solid brown;
     margin-top: .3rem;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: aquamarine;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    gap: .5rem;
+    justify-content: space-between;
+}
+
+.footer-columns {
+    width: calc(95% / 5);
+    background-color: darkorange;
+    min-height: 250px;
+}
+
+.footer-bottom {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black; 
+    min-height: 80px;
+    background-color: lightcoral;  
+}
