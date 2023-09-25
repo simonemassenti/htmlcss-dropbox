@@ -84,3 +84,21 @@ nav div {
     border: 2px solid red;
 
 }
+
+.partner {
+    border: 2px solid magenta;
+    margin-top: 5rem;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.partner .image {
+    width: 65%;
+    border: 1px solid maroon;
+}
+
+.partner .column-right {
+    width: 35%;
+    border: 1px solid maroon;
+}
