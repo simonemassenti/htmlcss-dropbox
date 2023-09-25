@@ -128,3 +128,40 @@ nav div {
     margin-top: 5rem;
 }
 
+.members {
+    display: flex;
+}
+
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 1px solid darkgoldenrod;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member-section {
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.explain {
+    overflow-y: auto;
+}
+
+.free-trial {
+    display: flex;
+    gap: 1rem;
+}
+
+.free-trial .column-left {
+    width: 65%;
+    border: 1px solid darkgreen;
+}
+
+.free-trial .button {
+    width: 35%;
+    border: 1px solid darkgreen;
+}
+
