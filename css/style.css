@@ -165,3 +165,11 @@ nav div {
     border: 1px solid darkgreen;
 }
 
+.faq {
+    margin-top: 5rem;
+}
+
+.question {
+    border: 1px solid brown;
+    margin-top: .3rem;
+}
