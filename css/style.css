@@ -334,11 +334,11 @@ li img {
 
 footer {
     background-color: #000000;
+    color: white;
 }
 
 .footer-columns {
     width: calc(95% / 5);
-    color: white;
     padding: 1rem;
     line-height: 2rem;
 }
@@ -352,8 +352,11 @@ footer {
     list-style-type: none;
 }
 
-.footer-bottom {
-    /* debug */ 
-    min-height: 80px;
-    background-color: lightcoral;  
+footer hr {
+    width: 10%;
+}
+
+.language {
+    padding: .5rem 0 2rem;
+    color: gray;
 }
