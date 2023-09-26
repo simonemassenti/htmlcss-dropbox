@@ -18,6 +18,15 @@ body {
     --btn-color: #0061FF;
     --bg-color: #B4D0E7;
     --bg-footer-color: #000000;
+    --brd-designit: #D1E9CD;
+    --bg-designit: #A2D39B;
+    --bg-asu: #61082B;
+    --bg-uf: #0093CE;
+    --bg-topps: #FF1C1C;
+    --bg-wbr: #D5001F;
+    --bg-hc: #B4D0E7;
+    --bg-lp: #0D2481;
+    --bg-cco: #FFD830;
 }
 
 .btn-blue {
@@ -216,33 +225,77 @@ li img {
 .card {
     width: calc(95% / 3);
 }
+/* /operations */
 
+/* customers */
 .customers {
     border: 1px solid lightskyblue;
     margin-top: 5rem;
     width: 50%;
 }
-
-.members {
-    display: flex;
-}
-
+/* /customers */
 .square {
     width: calc(100% / 3);
     height: calc(100vw / 3);
     border: 1px solid darkgoldenrod;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.member-section {
+.member-square {
     height: 50%;
     width: 50%;
-    border: 1px solid black;
+    text-align: center;
+}
+
+.logo-members {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) scale(.5);
+    filter: invert();
+}
+
+
+
+.designit-square {
+    border: 15px solid var(--brd-designit);
+    background-color: var(--bg-designit);
+}
+
+.asu-square {
+    background-color: var(--bg-asu);
+}
+
+.uf-square {
+    background-color: var(--bg-uf);
+}
+
+.toops-square {
+    background-color: var(--bg-topps);
+}
+
+.wbr-square {
+    background-color: var(--bg-wbr);
+}
+
+.hc-square {
+    background-color: var(--bg-hc);
+}
+
+.lp-square {
+    background-color: var(--bg-lp);
+}
+
+.cco-square {
+    background-color: var(--bg-cco);
 }
 
 .explain {
     overflow-y: auto;
+    text-align: left;
+    padding: 15px;
+}
+
+.designit {
+    width: 50%;
 }
 
 .free-trial {
