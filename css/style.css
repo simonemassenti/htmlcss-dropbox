@@ -25,6 +25,18 @@ body {
     background-color: var(--btn-color);
     padding: .3rem .5rem;
     text-align: center;
+    text-decoration: none;
+}
+
+.btn-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-white {
+    padding: .3rem .5rem;
+    text-align: center;
+    border: 1px solid black;
 }
 
 .blue-icon {
@@ -75,28 +87,33 @@ h2 {
     font-size: 1.5rem;
 }
 
+hr {
+    width: 25%;
+}
+
+.flexer {
+    display: flex;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+}
+
 /* HEADER */
 /* nav */
 nav {
     width: 100%;
     height: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav ul {
-    display: flex;
 }
 
 li {
     list-style-type: none;
     margin: 0 1rem;
     line-height: 3rem;
-}
-
-header a {
-    color: inherit;
-    text-decoration: none;
 }
 
 li img {
@@ -111,7 +128,6 @@ li img {
 }
 
 .hero-raw {
-    display: flex;
     gap: 1rem;
 }
 
@@ -123,24 +139,20 @@ li img {
     width: 70%;
 }
 
-a > i {
-    color: #000000;
+.go-down {
+    color: black;
     font-size: 2.5rem;
 }
 
-.image-header {
-
+.padd-r-35 {
+    padding-right: 35% ;
 }
 /* /hero */
 
+/* plans */
 .plan {
     border: 1px solid blue;
     padding: 1rem;
-}
-
-.plan-vertical {
-    display: flex;
-    justify-content: space-between;
 }
 
 .plan-col {
@@ -163,12 +175,20 @@ a > i {
 }
 
 .horizontal-col {
-    /* debug */
-    margin-top: 1rem;
-    border: 2px solid red;
-
+    border: 1px solid lightgray;   
 }
 
+.left-team-plan {
+    width: 70%;
+}
+
+.right-team-plan {
+    width: 25%;
+}
+
+/* /plans */
+
+/* partner */
 .partner {
     border: 2px solid magenta;
     margin-top: 5rem;
@@ -177,33 +197,24 @@ a > i {
     gap: 1rem;
 }
 
-.partner .image {
+.image-partner{
     width: 65%;
-    border: 1px solid maroon;
 }
 
-.partner .column-right {
+.txt-partner {
     width: 35%;
-    border: 1px solid maroon;
 }
 
+/* /partner */
+
+/* operations */
 .operations {
     margin-top: 5rem;
     border: 2px solid goldenrod;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .card {
-    margin-top: 1rem;
     width: calc(95% / 3);
-    background-color: lightpink;
-    border: 1px solid black;
-
 }
 
 .customers {
