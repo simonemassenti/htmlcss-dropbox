@@ -8,52 +8,104 @@ img {
     max-width: 100%;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* COMMONS */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+}
+
+:root {
+    --btn-color: #0061FF;
+    --bg-color: #B4D0E7;
+    --bg-footer-color: #000000;
+}
+
+.btn-blue {
+    color: white;
+    background-color: var(--btn-color);
+    padding: .3rem .5rem;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mrg-1-v {
+    margin: 1rem 0;
+}
+
+.mrg-2-v {
+    margin: 2rem 0;
+}
+
+
 /* HEADER */
+/* nav */
 nav {
     width: 100%;
-    height: 7vh;
-    background-color: orange;
+    height: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
-nav div {
-    /* debug */
-    width: calc(100% / 3);
-    height: 100%;
-    background-color: orangered;
-    border: 1px solid black;
+nav ul {
+    display: flex;
 }
 
+li {
+    list-style-type: none;
+    margin: 0 1rem;
+    line-height: 3rem;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+/* hero */
 .hero-box {
-    /* debug */
-    background-color: blue;
+    background-color: var(--bg-color);
     padding-top: 5rem;
 
 }
 
-.hero {
-    /* debug */
-    width: 80%;
-    border: 2px solid yellow;
-    height: 60vh;
-    margin: 0 auto;
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-raw {
     display: flex;
-    padding: 2rem 4rem 0;
     gap: 1rem;
 }
 
-.hero .column-left {
+.column-left {
     width: 30%;
-    background-color: blueviolet;
 }
 
-.hero .image {
+.jumbo-image{
     width: 70%;
-    background-color: blueviolet;
 }
 
-.container {
+a > i {
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+.image-header {
+
+}
+/* /hero */
+
+
+.small-container {
     width: 70%;
     margin: 1rem auto;
     /* debug */
@@ -177,6 +229,7 @@ nav div {
 /* FOOTER */
 
 footer {
+    /* debug */
     background-color: aquamarine;
 }
 
@@ -192,6 +245,7 @@ footer {
 
 .footer-columns {
     width: calc(95% / 5);
+    /* debug */
     background-color: darkorange;
     min-height: 250px;
 }
@@ -199,6 +253,7 @@ footer {
 .footer-bottom {
     width: 80%;
     margin: 0 auto;
+    /* debug */
     border: 1px solid black; 
     min-height: 80px;
     background-color: lightcoral;  
