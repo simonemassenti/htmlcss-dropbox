@@ -218,9 +218,9 @@ li img {
 }
 
 .customers {
-    min-height: 100px;
     border: 1px solid lightskyblue;
     margin-top: 5rem;
+    width: 50%;
 }
 
 .members {
