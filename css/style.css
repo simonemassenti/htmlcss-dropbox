@@ -178,6 +178,10 @@ li img {
     border: 1px solid lightgrey;
 }
 
+label {
+    margin-right: 5rem;
+}
+
 .head-plan {
     text-align: center;
     border-bottom: 1px solid lightgray;
@@ -360,3 +364,23 @@ footer hr {
     padding: .5rem 0 2rem;
     color: gray;
 }
+
+/* EFFECTS */
+
+.nav-list:hover {
+    border-bottom: 2px solid black;
+}
+
+[class^="btn-"]:hover {
+    filter: opacity(.8);
+}
+
+.question:hover .answer {
+    display: block;
+    font-weight: 300;
+}
+
+.question:hover i {
+    transform: rotate(180deg);
+}
+
