@@ -384,3 +384,45 @@ footer hr {
     transform: rotate(180deg);
 }
 
+/* radio buttons */
+.new-r-btn {
+    display: inline-block;
+    height: .8rem;
+    width: .8rem;
+    border: 1px solid rgb(181, 180, 180);
+    border-radius: 50%;
+    margin-right: 1rem;
+    position: relative;
+}
+
+
+label:hover .new-r-btn{
+    background-color: rgb(228, 228, 228);
+}
+
+.new-r-btn:after {
+    display: inline-block;
+    content: "";
+    border: 3px solid var(--btn-color);
+    border-radius: 50%;
+    width: .7rem;
+    height: .7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+input[type="radio"]:checked ~ .new-r-btn:after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+/* /radio buttons */
