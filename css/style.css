@@ -150,6 +150,8 @@ li img {
 
 /* hero */
 .hero-raw {
+    position: relative;
+    top: 4rem;
     gap: 1rem;
 }
 
@@ -158,12 +160,7 @@ li img {
 }
 
 .jumbo-image{
-    position: relative;
     width: 70%;
-}
-
-.j-img {
-    position: absolute;
 }
 
 .go-down {
